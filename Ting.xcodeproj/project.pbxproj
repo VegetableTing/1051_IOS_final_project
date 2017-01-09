@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3C077A1DED270F00C7D17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C07791DED270F00C7D17C /* AppDelegate.swift */; };
+		4C3C077C1DED270F00C7D17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C077B1DED270F00C7D17C /* ViewController.swift */; };
+		4C3C077F1DED270F00C7D17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C077D1DED270F00C7D17C /* Main.storyboard */; };
+		4C3C07811DED270F00C7D17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C07801DED270F00C7D17C /* Assets.xcassets */; };
+		4C3C07841DED270F00C7D17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C07821DED270F00C7D17C /* LaunchScreen.storyboard */; };
+		4C3C078F1DED270F00C7D17C /* TingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C078E1DED270F00C7D17C /* TingTests.swift */; };
+		4C3C079A1DED270F00C7D17C /* TingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C07991DED270F00C7D17C /* TingUITests.swift */; };
+		8CE6F5E01E20FF6D0039AB47 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6F5DF1E20FF6D0039AB47 /* SecondViewController.swift */; };
+		8D520E461E226709000F8163 /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D520E451E226709000F8163 /* scrollViewController.swift */; };
+		8DA6CCD41E08D4F3000408DE /* LoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6CCD31E08D4F3000408DE /* LoverTableViewCell.swift */; };
+		8DA6CCD61E08D5A3000408DE /* Custom_LoveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6CCD51E08D5A3000408DE /* Custom_LoveTableViewController.swift */; };
+		8DA6CCD81E08EA98000408DE /* AddLoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6CCD71E08EA98000408DE /* AddLoverTableViewController.swift */; };
+		8DA8EE101DFFB18A0095C910 /* LoverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8EE0F1DFFB18A0095C910 /* LoverDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3C078B1DED270F00C7D17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3C076E1DED270E00C7D17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3C07751DED270E00C7D17C;
+			remoteInfo = Ting;
+		};
+		4C3C07961DED270F00C7D17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3C076E1DED270E00C7D17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3C07751DED270E00C7D17C;
+			remoteInfo = Ting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3C07761DED270F00C7D17C /* Ting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C07791DED270F00C7D17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C3C077B1DED270F00C7D17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C3C077E1DED270F00C7D17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3C07801DED270F00C7D17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3C07831DED270F00C7D17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C3C07851DED270F00C7D17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C078A1DED270F00C7D17C /* TingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C078E1DED270F00C7D17C /* TingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingTests.swift; sourceTree = "<group>"; };
+		4C3C07901DED270F00C7D17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C07951DED270F00C7D17C /* TingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C07991DED270F00C7D17C /* TingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingUITests.swift; sourceTree = "<group>"; };
+		4C3C079B1DED270F00C7D17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C07A91DED277700C7D17C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		8CE6F5DF1E20FF6D0039AB47 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8D520E451E226709000F8163 /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		8DA6CCD31E08D4F3000408DE /* LoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverTableViewCell.swift; sourceTree = "<group>"; };
+		8DA6CCD51E08D5A3000408DE /* Custom_LoveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom_LoveTableViewController.swift; sourceTree = "<group>"; };
+		8DA6CCD71E08EA98000408DE /* AddLoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLoverTableViewController.swift; sourceTree = "<group>"; };
+		8DA8EE0F1DFFB18A0095C910 /* LoverDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3C07731DED270E00C7D17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07871DED270F00C7D17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07921DED270F00C7D17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3C076D1DED270E00C7D17C = {
+			isa = PBXGroup;
+			children = (
+				4C3C07781DED270F00C7D17C /* Ting */,
+				4C3C078D1DED270F00C7D17C /* TingTests */,
+				4C3C07981DED270F00C7D17C /* TingUITests */,
+				4C3C07771DED270F00C7D17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3C07771DED270F00C7D17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C07761DED270F00C7D17C /* Ting.app */,
+				4C3C078A1DED270F00C7D17C /* TingTests.xctest */,
+				4C3C07951DED270F00C7D17C /* TingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3C07781DED270F00C7D17C /* Ting */ = {
+			isa = PBXGroup;
+			children = (
+				8D520E451E226709000F8163 /* scrollViewController.swift */,
+				8DA6CCD31E08D4F3000408DE /* LoverTableViewCell.swift */,
+				4C3C07791DED270F00C7D17C /* AppDelegate.swift */,
+				4C3C077B1DED270F00C7D17C /* ViewController.swift */,
+				4C3C077D1DED270F00C7D17C /* Main.storyboard */,
+				8DA6CCD71E08EA98000408DE /* AddLoverTableViewController.swift */,
+				8DA6CCD51E08D5A3000408DE /* Custom_LoveTableViewController.swift */,
+				8DA8EE0F1DFFB18A0095C910 /* LoverDetailViewController.swift */,
+				8CE6F5DF1E20FF6D0039AB47 /* SecondViewController.swift */,
+				4C3C07801DED270F00C7D17C /* Assets.xcassets */,
+				4C3C07821DED270F00C7D17C /* LaunchScreen.storyboard */,
+				4C3C07851DED270F00C7D17C /* Info.plist */,
+				4C3C07A91DED277700C7D17C /* MyPlayground.playground */,
+			);
+			path = Ting;
+			sourceTree = "<group>";
+		};
+		4C3C078D1DED270F00C7D17C /* TingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C078E1DED270F00C7D17C /* TingTests.swift */,
+				4C3C07901DED270F00C7D17C /* Info.plist */,
+			);
+			path = TingTests;
+			sourceTree = "<group>";
+		};
+		4C3C07981DED270F00C7D17C /* TingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C07991DED270F00C7D17C /* TingUITests.swift */,
+				4C3C079B1DED270F00C7D17C /* Info.plist */,
+			);
+			path = TingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3C07751DED270E00C7D17C /* Ting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C079E1DED270F00C7D17C /* Build configuration list for PBXNativeTarget "Ting" */;
+			buildPhases = (
+				4C3C07721DED270E00C7D17C /* Sources */,
+				4C3C07731DED270E00C7D17C /* Frameworks */,
+				4C3C07741DED270E00C7D17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ting;
+			productName = Ting;
+			productReference = 4C3C07761DED270F00C7D17C /* Ting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3C07891DED270F00C7D17C /* TingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C07A11DED270F00C7D17C /* Build configuration list for PBXNativeTarget "TingTests" */;
+			buildPhases = (
+				4C3C07861DED270F00C7D17C /* Sources */,
+				4C3C07871DED270F00C7D17C /* Frameworks */,
+				4C3C07881DED270F00C7D17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3C078C1DED270F00C7D17C /* PBXTargetDependency */,
+			);
+			name = TingTests;
+			productName = TingTests;
+			productReference = 4C3C078A1DED270F00C7D17C /* TingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3C07941DED270F00C7D17C /* TingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C07A41DED270F00C7D17C /* Build configuration list for PBXNativeTarget "TingUITests" */;
+			buildPhases = (
+				4C3C07911DED270F00C7D17C /* Sources */,
+				4C3C07921DED270F00C7D17C /* Frameworks */,
+				4C3C07931DED270F00C7D17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3C07971DED270F00C7D17C /* PBXTargetDependency */,
+			);
+			name = TingUITests;
+			productName = TingUITests;
+			productReference = 4C3C07951DED270F00C7D17C /* TingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3C076E1DED270E00C7D17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = user_03;
+				TargetAttributes = {
+					4C3C07751DED270E00C7D17C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C3C07891DED270F00C7D17C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3C07751DED270E00C7D17C;
+					};
+					4C3C07941DED270F00C7D17C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3C07751DED270E00C7D17C;
+					};
+				};
+			};
+			buildConfigurationList = 4C3C07711DED270E00C7D17C /* Build configuration list for PBXProject "Ting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3C076D1DED270E00C7D17C;
+			productRefGroup = 4C3C07771DED270F00C7D17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3C07751DED270E00C7D17C /* Ting */,
+				4C3C07891DED270F00C7D17C /* TingTests */,
+				4C3C07941DED270F00C7D17C /* TingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3C07741DED270E00C7D17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C07841DED270F00C7D17C /* LaunchScreen.storyboard in Resources */,
+				4C3C07811DED270F00C7D17C /* Assets.xcassets in Resources */,
+				4C3C077F1DED270F00C7D17C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07881DED270F00C7D17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07931DED270F00C7D17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3C07721DED270E00C7D17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA6CCD61E08D5A3000408DE /* Custom_LoveTableViewController.swift in Sources */,
+				4C3C077C1DED270F00C7D17C /* ViewController.swift in Sources */,
+				8DA6CCD81E08EA98000408DE /* AddLoverTableViewController.swift in Sources */,
+				8D520E461E226709000F8163 /* scrollViewController.swift in Sources */,
+				4C3C077A1DED270F00C7D17C /* AppDelegate.swift in Sources */,
+				8CE6F5E01E20FF6D0039AB47 /* SecondViewController.swift in Sources */,
+				8DA8EE101DFFB18A0095C910 /* LoverDetailViewController.swift in Sources */,
+				8DA6CCD41E08D4F3000408DE /* LoverTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07861DED270F00C7D17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C078F1DED270F00C7D17C /* TingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C07911DED270F00C7D17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C079A1DED270F00C7D17C /* TingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3C078C1DED270F00C7D17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3C07751DED270E00C7D17C /* Ting */;
+			targetProxy = 4C3C078B1DED270F00C7D17C /* PBXContainerItemProxy */;
+		};
+		4C3C07971DED270F00C7D17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3C07751DED270E00C7D17C /* Ting */;
+			targetProxy = 4C3C07961DED270F00C7D17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3C077D1DED270F00C7D17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3C077E1DED270F00C7D17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3C07821DED270F00C7D17C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3C07831DED270F00C7D17C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3C079C1DED270F00C7D17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C3C079D1DED270F00C7D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3C079F1DED270F00C7D17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.Ting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C3C07A01DED270F00C7D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.Ting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C3C07A21DED270F00C7D17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.TingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ting.app/Ting";
+			};
+			name = Debug;
+		};
+		4C3C07A31DED270F00C7D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.TingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ting.app/Ting";
+			};
+			name = Release;
+		};
+		4C3C07A51DED270F00C7D17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.TingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ting;
+			};
+			name = Debug;
+		};
+		4C3C07A61DED270F00C7D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ting.TingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3C07711DED270E00C7D17C /* Build configuration list for PBXProject "Ting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C079C1DED270F00C7D17C /* Debug */,
+				4C3C079D1DED270F00C7D17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3C079E1DED270F00C7D17C /* Build configuration list for PBXNativeTarget "Ting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C079F1DED270F00C7D17C /* Debug */,
+				4C3C07A01DED270F00C7D17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3C07A11DED270F00C7D17C /* Build configuration list for PBXNativeTarget "TingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C07A21DED270F00C7D17C /* Debug */,
+				4C3C07A31DED270F00C7D17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3C07A41DED270F00C7D17C /* Build configuration list for PBXNativeTarget "TingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C07A51DED270F00C7D17C /* Debug */,
+				4C3C07A61DED270F00C7D17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3C076E1DED270E00C7D17C /* Project object */;
+}

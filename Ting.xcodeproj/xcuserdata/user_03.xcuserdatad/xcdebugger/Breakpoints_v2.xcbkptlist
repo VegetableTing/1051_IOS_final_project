@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ting/AppDelegate.swift"
+            timestampString = "502087991.885552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ting.AppDelegate.__deallocating_deinit"
+                  moduleName = "Ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user_03/Desktop/Ting/Ting/AppDelegate.swift"
+                  timestampString = "502087991.925281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ting.AppDelegate.init () -&gt; Ting.AppDelegate"
+                  moduleName = "Ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user_03/Desktop/Ting/Ting/AppDelegate.swift"
+                  timestampString = "502087991.928556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ting.AppDelegate.__allocating_init () -&gt; Ting.AppDelegate"
+                  moduleName = "Ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user_03/Desktop/Ting/Ting/AppDelegate.swift"
+                  timestampString = "502087991.930108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Ting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user_03/Desktop/Ting/Ting/AppDelegate.swift"
+                  timestampString = "502087991.931424"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
